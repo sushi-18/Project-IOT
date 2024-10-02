@@ -10,7 +10,7 @@
 ## Cách thực hiện
 
 - Ở đây tôi sẽ chỉ nói đến việc chỉnh sửa code:
-  + Cái khó nhất của bài toán này là làm thế nèo để tại một thời điểm chỉ chọn một LED để hoạt động thì ở đây tôi sử dụng thêm 2 biến là stt và a.
+  + Cái khó nhất của bài toán này là làm thế nào để tại một thời điểm chỉ chọn một LED để hoạt động thì ở đây tôi sử dụng thêm 2 biến là stt và a.
   + a là một biến đếm nó sẽ bắt đầu tại giá trị 0 và tăng 1 giá trị mỗi khi hoàn thành một lần Doubleclick
   + stt là biến điều kiện để xác định LED hoạt động giá trị của stt = a % 2 +1 (khi đó stt sẽ chỉ có 2 giá trị là 1 hoặc 2 phù hợp với bài toán)
   + Môi khi stt có giá trị là 2 thì LED2 sẽ được dùng để thao tác. Ngược lại với stt=1 thì ta sẽ thao ác trên LED1.
